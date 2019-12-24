@@ -27,6 +27,6 @@ function draw() {
   text(str(abs(Math.round(angle)))+"°",width/2,height/2);
   text(str(90-abs(Math.round(angle)))+"°",mouseX,mouseY);
   text("cos" + "(" + str(abs(Math.round(angle*1000)/1000)) + ")" + "=" + str(abs(Math.round(run*1000000 / hyp)/1000000)),width/2-run/2,height/2+42);
-  text("sin" + "(" + str(abs(Math.round(angle*1000)/1000)) + ")" + "=" + str(abs(Math.round(rise*1000000 / hyp)/1000000)),mouseX,mouseY+rise/2);
+  text("sin" + "(" + str 90 - (abs(Math.round(angle*1000)/1000)) + ")" + "=" + str(abs(Math.round(rise*1000000 / hyp)/1000000)),mouseX,mouseY+rise/2);
 
 }
